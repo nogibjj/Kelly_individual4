@@ -16,7 +16,7 @@ def about():
 
 @app.route("/api/openai")
 def prompt():
-    return render_template("prompt.html")
+    return render_template("chat.html")
 
 
 if __name__ == "__main__":
